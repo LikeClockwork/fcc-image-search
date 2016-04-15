@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  h1 FCC Imgur API Seach API
+  p Search for examples by entering comma separated search terms to the images end-point. You may page by using the page parameter.
+  p Examples:
+    ul
+      li
+        a(href= "https://fcc-image-search-likeclockwork.c9users.io/images/?terms=horse,dog") https://fcc-image-search-likeclockwork.c9users.io/images/?terms=horse,dog
+      li 
+        a(href= "https://fcc-image-search-likeclockwork.c9users.io/images/?terms=cat") https://fcc-image-search-likeclockwork.c9users.io/images/?terms=cat
+      li 
+        a(href= "https://fcc-image-search-likeclockwork.c9users.io/images/?terms=cat&page=10") https://fcc-image-search-likeclockwork.c9users.io/images/?terms=cat&page=10
+  br
+  br
+  p View the last 10 searches by hitting the searches endpoint
+  p Example:
+    ul
+      li
+        a(href = "https://fcc-image-search-likeclockwork.c9users.io/searches") https://fcc-image-search-likeclockwork.c9users.io/searches
+  
